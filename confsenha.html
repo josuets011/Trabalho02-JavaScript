@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"  fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+      </svg>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Confirmação</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Crie sua Conta<i class="bi bi-person-fill"></i></h1>
+        <div class="email">
+            <br>
+          <label for="exampleInputEmail1">Seu email: </label>
+          <input type="email" class="form-control" id="email1"  >
+          <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém !</small>
+          
+        </div>
+        <br>
+        <div class="senha1">
+          <label for="exampleInputPassword1">Insira uma senha:</label>
+          <input type="password" class="form-control" id="senha1" placeholder="Senha">
+        </div>
+        <span id="pontos"> . . .</span>
+        <br>
+        <span id="confsenha">
+        <div class="senha2">
+          <label for="exampleInputPassword1">Confirme sua senha:</label>
+          <input type="password" class="form-control" id="senha2" placeholder="">
+        </div>
+        <br>
+      </span>
+
+        <button type="button" onclick="leiaMais()" id="Confirme"> Confirme Senha</button>
+        <a href="index.html">
+          <br>
+          <br>
+        <button type="button" class="btn btn-primary" id="cadastroCC">Ir para Login</button>
+    </a>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

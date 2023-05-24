@@ -1,0 +1,57 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    overflow: hidden;
+    margin: 0;
+    
+    
+    /* overflow-y: scroll; */
+    
+}
+
+.background{
+   background: url('https://images.unsplash.com/photo-1633647517075-3bdafbc7b68c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80') no-repeat center center/cover; 
+   position: absolute;
+   top: -20px;
+   bottom: -20px;
+   left: -20px;
+   right: -20px;
+   z-index: -1;
+   filter: blur(0px);
+   opacity: 90%;
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    /* box-shadow: 0 3px 10px black; */
+    width: -40px;
+    height: 450px;
+    align-items: center;
+    position: absolute;
+    padding-bottom: 40px;
+    
+   
+}
+
+button{
+    width: 340px;
+    text-align: center;
+    box-shadow: 0 3px 10px black;
+}
+
+input{
+    width: 100px;  
+    margin-left: 300px;
+    text-align: center;
+    box-shadow: 0 3px 10px black;
+    
+}
+.emailHelp{
+    box-shadow: 0 3px 10px black;
+}
+
