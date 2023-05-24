@@ -11,3 +11,11 @@ A aba de cadastro apresenta campos de confirmação de senha, que após ser conf
 
 ![Captura de tela 2023-05-23 220549](https://github.com/josuets011/Trabalho02-JavaScript/assets/117037138/eeb3e0bc-244a-4981-afc5-8f796d5921b0)
 
+
+Após preencher os dadoss, o site apresentará uma mensagem, confirmando o login junto às informações.
+
+![Captura de tela 2023-05-23 221310](https://github.com/josuets011/Trabalho02-JavaScript/assets/117037138/b1b11b13-df1c-45c1-a67e-f9775007d1d4)
+
+Após confirmação, e ao clicar no botão "entrar", o usuário será direciona à pagin final.
+
+![Captura de tela 2023-05-23 221633](https://github.com/josuets011/Trabalho02-JavaScript/assets/117037138/5863b78b-a736-4970-9c62-60ca5888041f)
